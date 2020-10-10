@@ -1,6 +1,8 @@
 const express= require('express');
 const app=express();
 const expresLayouts=require('express-ejs-layouts');
+app.use(expresLayouts);
+
 const port=8000;
 
 app.use(express.urlencoded({ extended: true }));
