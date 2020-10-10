@@ -1,0 +1,25 @@
+{
+  "name": "3delements",
+  "version": "1.0.0",
+  "description": "a website for 3d Printed products",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajatLohia/3Delements.git"
+  },
+  "author": "Rajat Lohia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajatLohia/3Delements/issues"
+  },
+  "homepage": "https://github.com/RajatLohia/3Delements#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
