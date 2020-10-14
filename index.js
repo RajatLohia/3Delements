@@ -1,7 +1,12 @@
 const express= require('express');
 const app=express();
 const expresLayouts=require('express-ejs-layouts');
+
+
+app.use(express.static('./assets'));
 app.use(expresLayouts);
+app.set('layout extractStyles',true);
+app.set('layout extractScripts',true);
 
 const port=8000;
 
